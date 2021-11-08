@@ -1,0 +1,336 @@
+/*!
+
+ * WMD Site
+
+ * Copyright 2016 Alvaro Vargas Quezada
+
+ */
+/* FUENTES MUSEO SANS*/
+@font-face {
+font-family: 'MuseoSans100';
+src: url("../fonts/MuseoSansCyrl.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'MuseoSans900';
+src: url("../fonts/MuseoSansCyrl_3.otf") format("opentype");
+}
+/* FUENTES MUSEO SANS*/
+a:visited {
+  color: inherit;
+}
+ /* BEGIN: CONTACT FORM */
+.contact-text{
+    margin:45px auto;
+}
+
+.mail-message-area{
+    width:100%;
+    padding:0 15px;
+}
+
+.mail-message{
+    width: 100%;
+    background:rgba(0,0,0, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+}
+
+.not-visible-message{
+    height: 0px;
+    opacity: 0;
+}
+
+.visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+}
+.form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+    border:1px solid rgba(0, 0, 0, 0.075);
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.form:hover{
+    border:1px solid #004B58;
+}
+
+.form:focus{
+    color: white;
+    outline: none;
+    border:1px solid #004B58;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.button{
+    padding:8px 12px;
+    background:#404040;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    text-align:center;
+    font-size:0.8em;
+}
+
+.button:hover{
+  color:#fff;
+  background:#004B58;
+}
+.form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding: 5px;
+    background: #FFFFFF;
+    color: #004B58;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    margin:auto;
+    border: 1px solid #004B58;
+}
+
+.form-btn:hover{
+    background: #004B58;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.form-btn:active{
+    opacity: 0.9;
+}
+center{
+    margin-top:330px;
+}
+input {
+    position: relative;
+    z-index: 9999;
+}
+#contact-us input {
+  padding-left: 15px;
+}
+#email-message {
+  border-radius: 4px;
+}
+#email-message p {
+  margin: 0px auto 0px auto;
+}
+/* END: CONTACT FORM */
+.logo {
+  max-width: 210px;
+}
+.navbar-inverse .navbar-nav {
+  margin-top: 10px;
+}
+.img-mail {
+  max-width: 30px !important;
+  margin-bottom: 5px;
+}
+.header-content-wrap {
+    padding: 0px;
+}
+
+.about-us,.focus, footer {
+	background-color: #FFFFFF;
+  color: #004B58;
+}
+
+.about-us p, .about-us h6,
+footer, footer a {
+    color: #004B58;
+    text-align: justify;
+}
+
+.contact-us, .our-team, .home {
+  background-color: #004B58;
+}
+
+.img-aboutus {
+  margin-bottom: 30px;
+}
+
+.contact-us h2,
+.our-team h2 {
+   color: #FFFFFF;
+}
+.contact-us p {
+    text-align: left;
+    margin: 0px 0px 15px 0px;
+    color: #FFFFFF;
+}
+.contact-us p span {
+  float: right;
+}
+.span-brochure {
+  float: right;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 5px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  color: #FFF;
+}
+.img-brochure {
+  max-width: 40px;
+  filter: brightness(0) invert(1);
+}
+.our-team {
+    padding-bottom: 110px;
+}
+.about-us, .focus, .contact-us, .our-team {
+    font-size: 18px;
+}
+footer p {
+    margin: 0px;
+    padding: 5px 0px 5px;
+}
+.section-header {
+    padding-bottom: 40px;
+}
+.recabarren {
+    margin-bottom: 24px;
+}
+.nacrur {
+  max-width: 250px;
+}
+/* Equipo */
+.our-team figure img {
+  cursor: pointer;
+  margin-bottom: 20px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.our-team figure:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+.our-team span {
+  margin-bottom: 10px;
+}
+.our-team h3 {
+  margin-bottom: 0px;
+}
+#dgonzalez, #wmoya, #msandoval {
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: justify;
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  overflow-y: auto;
+}
+#dgonzalez {
+  left: 357px;
+  bottom: 421px;
+  z-index: 99;
+  width: 735px;
+  height: 420px;
+}
+#wmoya {
+  left: 357px;
+  bottom: 421px;
+  z-index: 99;
+  width: 735px;
+  height: 420px;
+}
+#msandoval {
+  left: -750px;
+  bottom: 421px;
+  z-index: 99;
+  width: 735px;
+  height: 420px;
+}
+#div-wmoya figure img {
+  position: relative;
+}
+.img-vcard {
+  float: right;
+}
+.img-vcard img {
+  max-width: 30px;
+}
+/* Areas */
+.list-group {
+  list-style-type: none;
+}
+a.list-group-item, .list-group-item {
+  border: none;
+  color: #004B58; 
+}
+a.list-group-item:hover {
+  background-color: #004B58;
+  color: #FFFFFF;
+}
+#bancario, #mercado, #cumplimiento, #comercial, #judicial, #civil {
+  display: none;
+  background-color: #004B58;
+  text-align: justify;
+  padding: 20px 40px 10px 40px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+.focus h3 {
+  text-align: center;
+  color: #FFFFFF;
+}
+.ui-state-active a.list-group-item {
+  background-color: #004B58;
+  color: #FFFFFF;
+}
+/*BEGIN HOME*/
+#home-image {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+}
+#home-image h2 { 
+  position: absolute; 
+  top: 520px; 
+  left: 0; 
+  width: 100%; 
+}
+#home-image h2 span { 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px; 
+}
+#home-image #over-home {
+  position: absolute;
+  top: 400px;
+  left: 860px;
+}
+#home-image #base-home {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+h2 {
+  font-family: 'MuseoSans900', sans-serif; 
+}
+a, p, span, button, input, textarea {
+  font-family: 'MuseoSans100', sans-serif;
+}
